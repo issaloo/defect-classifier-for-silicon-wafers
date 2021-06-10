@@ -1,2 +1,2 @@
-# Detecting Failure Areas on Silicon Wafers
+# Detecting and Labeling Failure Areas on Silicon Wafers
  
