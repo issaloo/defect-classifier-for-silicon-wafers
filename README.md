@@ -1,2 +1,2 @@
-# gross failure detection on wafers
+# Detecting Failure Areas on Silicon Wafers
  
