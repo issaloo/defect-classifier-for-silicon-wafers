@@ -4,13 +4,13 @@
 * [Background](#background)
 * [Libraries & Dependencies](#libraries-and-dependencies)
 * [Purpose](#purpose)
-
+* ...
 
 ## Background
-Semiconductor chips are essential to and used in electronic devices such as cars, phones, and appliances. Chip fabrication can be separated into four main processes: deposition, etch (removal), patterning, and modification (of electrical properties). Between each process, 
+Semiconductor chips are essential to and used in electronic devices such as cars, phones, and appliances. Chip fabrication can be separated into four main processes: deposition, etch (removal), patterning, and modification (of electrical properties). Between each process, .... scans .... 
 
 ## Purpose
-
+....
 
 ## Libraries & Dependencies
 
@@ -61,4 +61,16 @@ Third Party Modules
 | 5_Model_Pipepline.ipynb | |
 
 
+## Data Exploration
 
+## Data Preparation
+
+## Feature Engineering
+
+## Modeling
+
+### KNN
+
+### Decision Trees (Random Forest)
+
+## Pipeline
