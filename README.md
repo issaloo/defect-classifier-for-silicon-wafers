@@ -4,10 +4,11 @@
 * [Background](#background)
 * [Libraries & Dependencies](#libraries-and-dependencies)
 * [Purpose](#purpose)
-* ...
+* [Data Exploration]
 
 ## Background
-Semiconductor chips are essential to and used in electronic devices such as cars, phones, and appliances. Chip fabrication can be separated into four main processes: deposition, etch (removal), patterning, and modification (of electrical properties). Between each process, .... scans .... 
+Semiconductor chips are essential to electronic devices such as cars, phones, and appliances. Chip fabrication begins with a silicon wafer and requires four main processes: deposition, etch (removal), patterning, and modification (of electrical properties). For quality purposes... and inspection
+
 
 ## Purpose
 ....
