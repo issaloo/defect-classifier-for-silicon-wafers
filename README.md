@@ -6,11 +6,6 @@
 * [Libraries & Dependencies](#libraries-&-dependencies)
 * [Directory](#directory)
 * [Project Workflow](#project-workflow)
-    1. [Data Exploration](#data-exploration)
-    2. [Data Preparation](#data-preparation)
-    3. [Feature Engineering](#feature-engineering)
-    4. [Modeling](#modeling)
-    5. [Full Pipeline](#pipeline)
 
 ## Background
 Semiconductor chips are essential to electronic devices such as cars, phones, and appliances. Chip fabrication begins with a silicon wafer and follows hundreds of processing steps. There are four main processing steps: deposition, etch (removal), patterning, and modification (of electrical properties). During processing, defects from multiple sources (e.g., tools, air) land on the wafer and impede electrical connections and performance of the chip. Wafer inspections are implemented between process steps to detect pattern defects, which drive root cause analyses and enable corrective action. When defect issues are fixed earlier (i.e., before more wafers are affected), yield increases and manufacturing cost per chip decreases. After many processing steps, the wafer is then cut into chips, tested, packaged, and sold.
@@ -60,29 +55,32 @@ There are three dataset folders that contain datasets from raw to model-ready an
 | model_dataset | Cluster features (e.g., area, number of points) from wafer scan data, aggregated into a single file |
 | outputs | Outputs from running code |
 
-## Project Workflow
-The workflow follows the programs listed below:
-
+The project workflow follows the programs listed below:
 | Programs | Description |
 | ----- | ----- |
-| 1_Data_Exploration.ipynb | |
-| 2_Data_Preparation.ipynb | |
-| 3_1_Feature_Engineering.ipynb | |
-| 4_1_Modeling_KNN.ipynb | |
-| 4_2_Modeling_DecisionTrees(RF).ipynb | |
-| 5_Model_Pipeline.ipynb | |
+| 1_Data_Exploration.ipynb | Understand data structure, analyze data relationships, and visualize data with graphs|
+| 2_Data_Preparation.ipynb | Evaluate clustering algorithms and implement semi-automated labeling program; Output: labeled_dataset |
+| 3_1_Feature_Engineering.ipynb | Create features at the wafer (e.g., number of defects on wafer) and the cluster level (e.g., number of defects of cluster), aggregate processed data for modeling; Output: model_dataset |
+| 3_2_Feature_Exploration.ipynb | Analyze feature relationships, visualize data with graphs, evaluate correlation between features |
+| 4_1_Modeling_KNN.ipynb | Fit and evaluate processed data with K-Nearest Neighbors model |
+| 4_2_Modeling_RandomForest.ipynb | Fit and evaluate processed data with Random Forest model |
+| 5_Model_Pipeline.ipynb | Best model re-trained and end-to-end prediction pipeline from data input to processing to prediction; Output: gross_failure_classifier.sav |
 
 
-## Data Exploration
+## Techniques
+### Data Processing
+- Convex Hull Algorithm
+- Pivot Tables
 
-## Data Preparation
+### Data Modeling
+- K-Nearest Neighbors (KNN)
+    - Normalization
+        - MinMaxScaler
+    - Hyperparameter Tuning
+        - Elbow Method
+- Random Forest
+    - gs
+- Model Evaluation
 
-## Feature Engineering
 
-## Modeling
-
-### KNN
-
-### Decision Trees (Random Forest)
-
-## Pipeline
+## Results
