@@ -104,4 +104,4 @@ The entire dataset is highly imbalanced with classifications of 3366 nones, 960 
 | **Accuracy** | | | | |
 | Macro Avg| 0.78 | 0.76 | 0.77 | 683 |
 
-Because the dataset is imbalanced, increasing the accuracy metrics for scratches - the minority class - are prioritized. A precision of 57% and recall of 47% for scratch classification is moderate and requires higher accuracies for the classification model to be deployed. Further improvements can be made through training on other models (e.g., Linear Regression, SVM), utilizing different imbalanced dataset techniques, and performing more hyperparameter tuning.
+Because the dataset is imbalanced, increasing the accuracy metrics for scratches - the minority class - are prioritized. A precision of 57% and recall of 47% for scratch classification is moderate and requires higher accuracies for the classification model to be deployed. Further improvements can be made through training on other models (e.g., Linear Regression, SVM), utilizing different imbalanced dataset techniques, performing more hyperparameter tuning, and collecting more data.
