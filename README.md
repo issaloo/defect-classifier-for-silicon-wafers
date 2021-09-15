@@ -73,7 +73,7 @@ The project workflow follows the programs listed below sequentially:
 - Convex Hull Algorithm
 - Pivot Tables
 
-### Data Modeling
+### Modeling
 - Test Train Split
 - K-Nearest Neighbors (KNN)
     - Normalization
